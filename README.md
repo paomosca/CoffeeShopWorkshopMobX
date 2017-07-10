@@ -41,6 +41,18 @@ yarn start -- --reset-cache
 
 Like `npm start`, but also attempts to open your app in the iOS Simulator if you're on a Mac and have it installed.
 
+
+## Errors during install process?
+
+
+``FAIL [RNDebugger] The `rndebugger://` URI scheme seems not registered, maybe you haven't install the app?``
+
+I'm using [react native debugger](https://github.com/jhen0409/react-native-debugger) feel free to download it or remove
+``
+"postinstall": "rndebugger-open --expo"
+``
+from package.json
+
 ### Why Ignite?
 
 * Easily spin up a new React Native app with best practices built-in

@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "CoffeeShop",
+    "description": "Workshop React-Native",
+    "slug": "coffeeshop",
+    "sdkVersion": "17.0.0",
+    "orientation": "portrait",
+    "primaryColor": "#efefef",
+    "icon": "./assets/icons/app.png",
+    "loading": {
+      "icon": "./assets/icons/loading.png",
+      "hideExponentText": false
+    },
+    "packagerOpts": {
+      "assetExts": ["ttf", "mp4"]
+    }
+  }
+}

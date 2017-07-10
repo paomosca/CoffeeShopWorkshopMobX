@@ -7,11 +7,12 @@ Below you'll find information about performing common tasks. The most recent ver
 Checkout this project to your React Native Workspace
 
 ```
-git checkout https://github.com/paomosca/CoffeeShopWorkshopMobX
+git clone https://github.com/paomosca/CoffeeShopWorkshopMobX
 ```
 
 Install all dependencies
 ```
+cd CoffeeShopWorkshopMobX
 yarn
 # or
 npm install
